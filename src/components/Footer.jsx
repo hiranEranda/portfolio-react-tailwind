@@ -10,7 +10,7 @@ import { BsFacebook } from "react-icons/bs";
 
 function Footer() {
   return (
-    <div className="border-t border-t-gray-700">
+    <div className="pt-5 pb-5 border-t border-t-gray-700">
       <div className="max-w-[1240px] mx-auto p-5 grid lg:grid-cols-2 gap-4">
         <div className="text-[#5fab6f]">
           <h1 className="flex justify-center mb-4 text-xl border-b border-gray-700">

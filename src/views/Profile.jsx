@@ -12,12 +12,13 @@ function Profile() {
         </h1>
         <p className="mt-4 text-justify text-[#979797] font-mono">
           I am a dedicated, adaptable, and responsible individual who enjoys
-          work on my own initiative or in a team. I am looking for an innovative
-          and ambitious company where I can assist my knowledge and skills along
-          with acquiring realtime exposure to Computer engineering procedures.
-          Based on my enthusiasm for programming, I am seeking a Software
-          Development related job opportunity to develop my career as a Software
-          Engineer.
+          work on my own initiative or in a team. Seeking an opportunity to
+          incorporate and improve my knowledge and skills by contributing to the
+          growth of the company. Based on my enthusiasm for programming, I am
+          seeking a Software Development related job opportunity to develop my
+          career as a Software Engineer.Seeking an opportunity to incorporate
+          and improve my knowledge and skills by contributing to the growth of
+          the company.
         </p>
         <img
           className="object-scale-down mx-auto mt-5 rounded-full w-72 h-72"
