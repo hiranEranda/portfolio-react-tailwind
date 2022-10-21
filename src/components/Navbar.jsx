@@ -13,7 +13,7 @@ function Navbar() {
     <div className="border-b border-b-gray-700">
       <div className="max-w-[1240px] flex mx-auto justify-between p-5">
         <ul className="text-2xl md:text-3xl text-[#5fab6f] my-auto flex gap-5">
-          <li className="cursor-pointer">
+          <li className="cursor-pointer hover:text-[#278e3d]">
             <a
               target="blank"
               href="https://www.linkedin.com/in/hiran-eranda-38b7451b3/"
@@ -21,28 +21,28 @@ function Navbar() {
               <BsLinkedin />
             </a>
           </li>
-          <li className="cursor-pointer">
+          <li className="cursor-pointer hover:text-[#278e3d]">
             <a target="blank" href="https://github.com/hiranEranda">
               <BsGithub />
             </a>
           </li>
-          <li className="cursor-pointer">
+          <li className="cursor-pointer hover:text-[#278e3d]">
             <a target="blank" href="https://www.facebook.com/hiran.eranda.5">
               <BsFacebook />
             </a>
           </li>
         </ul>
-        <ul className="flex justify-center ml-5 font-mono text-l md:text-xl">
-          <li className="text-[#5fab6f] rounded-full my-auto">
+        <ul className="flex justify-center ml-5 font-mono text-l md:text-xl border border-[#5fab6f] rounded-md px-1 hover:border-[#278e3d] text-[#5fab6f] hover:text-[#278e3d]">
+          <li className="my-auto rounded-full ">
             <a href="/assets/resume.pdf">
               <HiOutlineDocumentText
-                size={"1.6em"}
+                size={"1.2em"}
                 className="cursor-pointer"
               />
             </a>
           </li>
-          <li className="font-mono text-[#5fab6f] border-[#5fab6f] rounded-md px-2 py-1 cursor-pointer">
-            <a href="/assets/resume.pdf"> My resume</a>
+          <li className="px-1 py-1 font-mono cursor-pointer ">
+            <a href="/assets/resume.pdf">My resume</a>
           </li>
         </ul>
       </div>
