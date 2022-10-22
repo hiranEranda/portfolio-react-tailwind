@@ -5,20 +5,17 @@ import { HiOutlineDocumentText } from "react-icons/hi";
 
 function Navbar() {
   return (
-    <div className="border-b border-b-gray-700">
+    <div className="fixed w-full border-b border-b-gray-700 bg-[#111215]">
       <div className="max-w-[1240px] flex mx-auto justify-between p-5">
         <div className="flex">
-          <h1 className="text-2xl md:text-3xl text-[#5fab6f] my-auto flex gap-5">
-            Welcome
-          </h1>
           <img
-            className="object-scale-down w-12 h-8"
-            src="/assets/fire.gif"
+            className="object-scale-down w-16 h-16"
+            src="/assets/h.gif"
             alt=""
           />
         </div>
 
-        <ul className="flex justify-center ml-5 font-mono text-l md:text-xl border border-[#5fab6f] rounded-md px-1 hover:border-[#278e3d] text-[#5fab6f] hover:text-[#278e3d]">
+        <ul className="flex justify-center ml-5 font-roboto text-l max-h-[2em] md:text-xl border border-[#5fab6f] rounded-md px-1 hover:border-[#278e3d] text-[#5fab6f] hover:text-[#278e3d] mt-3">
           <li className="my-auto rounded-full ">
             <a href="/assets/resume.pdf">
               <HiOutlineDocumentText
@@ -27,7 +24,7 @@ function Navbar() {
               />
             </a>
           </li>
-          <li className="px-1 py-1 font-mono cursor-pointer ">
+          <li className="px-1 py-1 cursor-pointer font-roboto ">
             <a href="/assets/resume.pdf">My resume</a>
           </li>
         </ul>
