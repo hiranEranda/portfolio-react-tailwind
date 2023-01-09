@@ -19,7 +19,7 @@ function Footer() {
             <li className="my-auto rounded-full">
               <BsTelephone />
             </li>
-            <li className="px-2 py-1 font-mono text-sm md:text-xl">+947018303</li>
+            <li className="px-2 py-1 font-mono text-sm md:text-xl">0717018303</li>
           </ul>
           <ul className="flex px-1 font-mono text-l md:text-xl">
             <li className="my-auto rounded-full">
